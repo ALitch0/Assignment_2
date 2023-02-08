@@ -9,7 +9,7 @@
     --bright-color:  #FFFFFF;
     background-color:  #F8BBD0;
     --primary-text-color:#212121;
-    --secondary-text-color: #757575;
+    --secondary-text-color: #555252;
 }
 h1 span{
     color: var(--bright-color);
@@ -53,4 +53,13 @@ footer{
     font-size: 23px;
     width: 85%;
     text-align: end;
+}
+h2{
+    font-size: 30px;
+    font-family: 'Caveat', cursive;
+    padding:15px;
+    color:var(--secondary-text-color);
+}
+section{
+    display: flex;
 }
