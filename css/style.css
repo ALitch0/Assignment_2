@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/* font imports */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khojki:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+
+/* setting colors */
+:root{
+    --bright-color:  #FFFFFF;
+    background-color:  #F8BBD0;
+    --primary-text-color:#212121;
+    --secondary-text-color: #757575;
+}
+h1 span{
+    color: var(--bright-color);
+}
+
+p span{
+    color: var(--secondary-text-color);
+}
+
+body{
+    text-align: center;
+}
+
+header h1{
+    font-size: 100px;
+    font-family: 'Noto Serif Khojki', serif;
+}
+
+/* remove underlines and color in anchor tag */
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* adjusting the p tag */
+p{
+    color: var(--primary-text-color);
+    width: 70%;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 30px;
+    font-family: 'Caveat', cursive;
+    line-height: 2.5;
+    letter-spacing: 1.1px;
+    font-kerning: auto;
+}
+
+/* adjusting the end footer */
+footer{
+    padding: 5px;
+    font-size: 23px;
+    width: 85%;
+    text-align: end;
+}
